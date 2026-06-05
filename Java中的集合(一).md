@@ -12,38 +12,38 @@ tags:
 **集合是一种容器,用来装数据**
 
 集合体系分为两类
-1.``Collection` 单列集合
-1. Map 双列集合
-- Collection代表单列集合,每个元素只包含一个值
-- Map包含两个值,即一个键值对
+1. `Collection` 单列集合
+2. `Map` 双列集合
+- `Collection`代表单列集合,每个元素只包含一个值
+- `Map`包含两个值,即一个键值对
 
 ---
 
-# 单列集合Collection
+# 单列集合`Collection`
 
 [[Java中的Collection集合体系结构.canvas]]
 
 上图表示了Java中的单列集合体系结构
 
-Collection集合特点
+`Collection`集合特点
 
-- List系列集合:添加的元素**有序,可重复,有索引**
-- Set系列集合:添加的元素**不重复,无索引**
-	- **HashSet:无序,不重复,无索引
-	- LinkedHashSet:**有序**,不重复,无索引
-	- TreeSet:按照大小默认升序排序,不重复,无索引
+- `List`系列集合:添加的元素**有序,可重复,有索引**
+- `Set`系列集合:添加的元素**不重复,无索引**
+	- **`HashSet`:无序,不重复,无索引
+	- `LinkedHashSe`t:**有序**,不重复,无索引
+	- `TreeSet`:按照大小默认升序排序,不重复,无索引
 
-其中最常用的就是ArrayList和HashSet,二者的特点完全相反
+其中最常用的就是`ArrayList`和`HashSet`,二者的特点完全相反
 
 ---
 
-## Collection的常用方法
+## `Collection`的常用方法
 
-为什么要先学习Collection的方法?
-- Collection是单列集合的祖宗接口,它规定的方法是全部单列集合继承的
+为什么要先学习`Collection`的方法?
+- `Collection`是单列集合的祖宗接口,它规定的方法是全部单列集合继承的
 
 
-Collection提供的通用方法:
+`Collection`提供的通用方法:
 - 获取集合的元素个数:`size()`
 - 去删除元素:`list()`
 - 判断是否为空:`isEmpty()`
@@ -53,17 +53,17 @@ Collection提供的通用方法:
 	- 例如: `Object[] arr = list.toArray();`
 
 ---
-## Collection的遍历方式
+## `Collection`的遍历方式
 
 ### 一.迭代器遍历
 
 迭代器是用来**遍历集合的专用方式**,在Java中迭代器的代表是`Iterator`
 
-**Collection集合获取迭代器的方法:
+**`Collection`集合获取迭代器的方法:
 
 方法名称:  `Iterator<E> iterator()`,它可以返回集合中的迭代器对象,该迭代器对象默认指向当前集合的第一个元素
 
-**Iterator迭代器的常用方法
+**`Iterator`迭代器的常用方法
 
 - `boolean hasNext()`,询问当前位置是否有元素存在
 - `E next()`获取当前位置的元素,并同时将迭代器对象
