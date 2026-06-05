@@ -114,5 +114,25 @@ students.add(s2);
 
 方法一:
 ```Java
+public class Teacher implements Comparable<Teacher>{  
+    private int age;  
+    //比较者.compareTo(被比较者);  
+    //this -> 比较者(主调)  
+    //o -> 被比较者(被调)  
+    //规定:  
+    //如果比较者>被比较者,返回正整数;  
+    //如果比较者<被比较者,返回负整数;  
+    //如果比较者=被比较者,返回0;  
+    @Override  
+    public int compareTo(Teacher o) {  
+       //按照年龄升序排序  
+       return this.age - o.age;  
+    }  
+}
 
 ```
+
+Java规定:
+- 如果比较者>被比较者,返回正整数;
+- 如果比较者<被比较者,返回负整数;
+- 如果比较者=被比较者,返回0; 
