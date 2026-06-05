@@ -26,7 +26,7 @@ tags:
 
 ---
 
-# 二.`HashSet`的原理
+# 二.`HashSet`的原理(常用)
 
 `HashSet`是基于**哈希表**存储数据的
 
