@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java中的集合(一).md",
+                "file": "python基础语法/Python基础语法(三).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java中的集合(一)"
+              "title": "Python基础语法(三)"
             }
           }
         ]
@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Java中的集合(一).md",
+            "file": "python基础语法/Python基础语法(三).md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
