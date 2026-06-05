@@ -135,4 +135,6 @@ public class Teacher implements Comparable<Teacher>{
 Java规定:
 - 如果比较者>被比较者,返回正整数;
 - 如果比较者<被比较者,返回负整数;
-- 如果比较者=被比较者,返回0; 
+- 如果比较者=被比较者,返回0;
+
+方法二同理
