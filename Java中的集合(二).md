@@ -47,3 +47,4 @@ Java中的所有对象,都可以调用`Object`类提供`hashCode()`方法,返回
 
 ![[HashSet的底层原理.png]]
 
+当有16 * 0.75 = 12 个位置不为`null`时,`table`就会扩容为32
