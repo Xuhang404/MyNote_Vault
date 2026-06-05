@@ -292,20 +292,20 @@ Exception in thread "main" java.util.ConcurrentModificationException
 
 ---
 
-# List集合
+# `List`集合
 
 特点:有序,可重复,有索引
 
-list集合的特有方法:都与索引有关
+`List`集合的特有方法:都与索引有关
 - `add(int index,E element)`增
 - `remove(int index)`删
 - `set(int index ,E element)`改
 - `get(int index)`查
 
-## ArrayList和LinkedList
+## `ArrayList`和`LinkedList`
 
-- ArrayList底层是基于[[数组]]存储数据的
-- LinkedList底层是基于[[链表]]存储数据的
+- `ArrayList`底层是基于[[数组]]存储数据的
+- `LinkedList`底层是基于[[链表]]存储数据的
 
 数组的特点:
 - 连续的一块内存区域
@@ -319,9 +319,9 @@ list集合的特有方法:都与索引有关
 	1. 数据C对应的下一个结点的位置指向D
 	2. 数据B对应的下一个结点的位置指向C
 	删除同理
-- LinkedList基于双链表实现,每个结点不仅包含下一个结点的位置,还包含上一个节点的位置,缺点是占内存大,优点是**对首尾元素进行增删改查的速度极快**,时间复杂度几乎是O(1)
+-` LinkedList`基于双链表实现,每个结点不仅包含下一个结点的位置,还包含上一个节点的位置,缺点是占内存大,优点是**对首尾元素进行增删改查的速度极快**,时间复杂度几乎是O(1)
 
-因此LinkedList新增了很多首尾操作的特有方法:
+因此`LinkedList`新增了很多首尾操作的特有方法:
 - `addFirst(E e)`头插指定元素
 - `addLast(E e)`尾插指定元素
 - `E getFirst()`查询首元素
@@ -329,13 +329,13 @@ list集合的特有方法:都与索引有关
 - `E removeFirst()`删除头元素
 - `E removeLast()`删除尾元素
 
-LinkedList的应用场景:
+`LinkedList`的应用场景:
 
 1. 可以用来设计[[队列]](先进先出,后进后出),只是在首尾增删元素,用LinkedList来设计非常合适
 
 2. 还可以用设计[[栈]](后进先出,先进后出)
 
-### **什么时候用ArrayList,什么时候用LinkedList?
+### **什么时候用`ArrayList`,什么时候用`LinkedList`?
 
 - 如果增删比较少,查询比较多,应该用ArrayList,因为根据索引查询极快,也是因此,ArrayList在实际开发中用的最多 
 
