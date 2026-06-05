@@ -106,3 +106,13 @@ students.add(s2);
 - 对于字符串类型,默认按照首字符的编号升序排序
 - 对于自定义类型如`Student`,`TreeSet`默认无法直接排序,因此需要**自定义排序规则
 
+### 自定义排序规则
+
+两种方法:
+1. 对象类实现一个`Comparable<T>`接口,重写`compareTo()`方法,指定大小比较规则
+2. `public TreeSet(Comparator c)`集合自带比较器`Comparator`对象,指定比较规则
+
+方法一:
+```Java
+
+```
