@@ -337,9 +337,9 @@ Exception in thread "main" java.util.ConcurrentModificationException
 
 ### **什么时候用`ArrayList`,什么时候用`LinkedList`?
 
-- 如果增删比较少,查询比较多,应该用ArrayList,因为根据索引查询极快,也是因此,ArrayList在实际开发中用的最多 
+- 如果增删比较少,查询比较多,应该用`ArrayList`,因为根据索引查询极快,也是因此,`ArrayList`在实际开发中用的最多 
 
-- 而LinkedList更加多的用于增删比较多的场景
+- 而`LinkedList`更加多的用于增删比较多的场景
 
 ----
 
