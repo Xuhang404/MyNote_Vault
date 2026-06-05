@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"b87b9ab12009ec86","x":-136,"y":-252,"width":250,"height":60,"type":"text","text":"Map<K,V>"},
+		{"id":"be41e7a31282ad1c","x":-436,"y":-129,"width":250,"height":60,"type":"text","text":"HashMap<K,V>"},
+		{"id":"232ecda91e9b43fb","x":212,"y":-133,"width":250,"height":60,"type":"text","text":"TreeMap<K,V>"},
+		{"id":"e08796a6c9af1014","x":-136,"y":-129,"width":250,"height":60,"type":"text","text":"..."},
+		{"id":"01ad70955d374181","x":-436,"y":31,"width":250,"height":60,"type":"text","text":"LinkedHashMap<K ,V>"}
+	],
+	"edges":[
+		{"id":"af88d3254e47478f","fromNode":"b87b9ab12009ec86","fromSide":"bottom","toNode":"be41e7a31282ad1c","toSide":"top"},
+		{"id":"7e2b25d796eb1415","fromNode":"b87b9ab12009ec86","fromSide":"bottom","toNode":"e08796a6c9af1014","toSide":"top"},
+		{"id":"eed555d6cd24885f","fromNode":"b87b9ab12009ec86","fromSide":"bottom","toNode":"232ecda91e9b43fb","toSide":"top"},
+		{"id":"4d8b4de0831734b2","fromNode":"be41e7a31282ad1c","fromSide":"bottom","toNode":"01ad70955d374181","toSide":"top"}
+	]
+}
