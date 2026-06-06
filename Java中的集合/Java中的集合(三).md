@@ -89,7 +89,7 @@ public class Test3 {
 
 `Map`提供的方法:`Set<Map.Entry<K,V>> entrySet()`,这个方法底层会遍历`Map`集合,每遍历一个键值对对象会将其包装成一个`Map.Entry<>`对象,存入到`Set`内,再对这个`Set`进行遍历
 
-也就是说,这个包装对象的类型是`Map.Entry<K,V>`,这是一个`Map`包装好的内部接口的实现类
+也就是说,这个包装对象的类型是 `Map.Entry<K,V>`,这是一个`Map`包装好的内部接口的实现类
 
 ```Java
 import java.util.HashMap;  
