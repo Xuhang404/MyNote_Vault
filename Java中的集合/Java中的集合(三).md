@@ -29,3 +29,22 @@ tags:
 - `LinkedHashMap`有序,不重复,无索引
 - `TreeMap`:按照大小默认升序排序,不重复,无索引
  
+---
+
+# `Map`集合的常用方法
+
+与`Collection`类似,`Map`是双列集合的祖宗接口,它的功能是所有双列集合都可以继承使用的
+
+| 方法名称                                 | 说明                   |
+| ------------------------------------ | -------------------- |
+| `V put(K key,V value)`               | 像集合中添加元素,返回值是`value` |
+| `int size()`                         | 获取集合的大小              |
+| `void clear()`                       | 清空集合                 |
+| `boolean isEmpty()`                  | 判断集合是否为空             |
+| `V get(Object key)`                  | 根据键获取对应值             |
+| `V remove(Object key)`               | 根据键删除整个键值对           |
+| `boolean containsKey(Object key)`    | 根据键判断是否包含某个键值对       |
+| `boolean containValue(Object value)` | 根据值判断是否包含某个键值对       |
+| `Set<K> keySet()`                    | 提取集合中所有的键            |
+| `Collection<V> values()`             | 提取集合中所有的值            |
+
