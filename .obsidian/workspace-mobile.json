@@ -11,12 +11,10 @@
             "id": "f2f61869f468d9b5",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "LinkedHashSet的底层原理.png"
-              },
-              "icon": "lucide-image",
-              "title": "LinkedHashSet的底层原理"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -166,6 +164,7 @@
   },
   "active": "f2f61869f468d9b5",
   "lastOpenFiles": [
+    "LeetCode/1.两数之和.md",
     "2026-06-06.md",
     "未命名.md",
     "LinkedHashSet的底层原理.png",
