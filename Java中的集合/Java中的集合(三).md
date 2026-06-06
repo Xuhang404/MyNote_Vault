@@ -117,4 +117,18 @@ public class Test3 {
 ## 三.[[Lambda表达式]]
 
 
+---
+
+# `Map`集合的实现类
+
+- `HashMap`无序,不重复,无索引(性能好)
+- `LinkedHashMap`有序,不重复,无索引
+- `TreeMap`按照大小默认升序排序,不重复,无索引
+
+1. 实际上`Set`系列集合的底层就是基于`Map`实现的,只不过`Set`中的元素只要`Key`不要`Value`
+   所以`HashSet`的原理实际上就是`HashMap`的原理,都是基于哈希表实现的
+
+2. 实际上,`LinkedHashSet`的底层原理就是`LinkedHashMap`
+
+3.  同理`TreeSet`与`TreeSet`也是一样的
 
