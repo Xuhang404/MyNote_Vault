@@ -87,3 +87,4 @@ public class Test3 {
 
 把"键值对"看成一个整体进行遍历
 
+`Map`提供的方法:`Set<Map.Entry<K,V>> entrySet()`,这个方法底层会遍历`Map`集合,每遍历一个键值对对象会将其包装成一个`Entry`对象,存入到`Set`内
