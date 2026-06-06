@@ -44,8 +44,9 @@ tags:
 
 
 `Collection`提供的通用方法:
+- 添加元素:`add()`
 - 获取集合的元素个数:`size()`
-- 去删除元素:`list()`
+- 删除元素:`remove()`
 - 判断是否为空:`isEmpty()`
 - 清空集合:`clear()`
 - 判断集合中是否存在某个数据:`contains()`
