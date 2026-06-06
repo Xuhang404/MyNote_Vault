@@ -56,3 +56,34 @@ tags:
 
 思路:先获取`Map`集合的全部的键,再通过遍历键来找值
 
+```Java
+import java.util.HashMap;  
+import java.util.Iterator;  
+import java.util.Map;  
+import java.util.Set;  
+  
+public class Test3 {  
+    static void main(String[] args) {  
+       Map<String,String> map = new HashMap<>();  
+       map.put("1", "a");  
+       map.put("2","b");  
+       map.put("3","c");  
+         
+       Set<String> keySet =  map.keySet();  
+       Iterator<String> it = keySet.iterator();  
+         
+       while(it.hasNext()){  
+          String key = it.next();  
+          System.out.println(map.get(key));  
+       }  
+  
+    }  
+}
+```
+
+---
+
+## 二.键值对遍历
+
+把"键值对"看成一个整体进行遍历
+
