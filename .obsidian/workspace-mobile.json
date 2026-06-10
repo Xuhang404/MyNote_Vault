@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "离散数学笔记/1.1 集合的基本概念.md",
+                "file": "1.2,1.3 集合的运算及其性质.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.1 集合的基本概念"
+              "title": "1.2,1.3 集合的运算及其性质"
             }
           }
         ]
@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "离散数学笔记/1.1 集合的基本概念.md",
+            "file": "1.2,1.3 集合的运算及其性质.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -170,6 +170,8 @@
   },
   "active": "f2f61869f468d9b5",
   "lastOpenFiles": [
+    "离散数学笔记/1.1 集合的基本概念.md",
+    "1.2,1.3 集合的运算及其性质.md",
     "日记/2026-06-09.md",
     "日记",
     "LeetCode/1.两数之和.md",
