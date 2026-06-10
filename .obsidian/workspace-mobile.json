@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LeetCode/1.两数之和.md",
+                "file": "日记/2026-06-09.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.两数之和"
+              "title": "2026-06-09"
             }
           }
         ]
@@ -168,9 +168,11 @@
   },
   "active": "f2f61869f468d9b5",
   "lastOpenFiles": [
+    "日记",
     "LeetCode/1.两数之和.md",
-    "2026-06-06.md",
+    "日记/2026-06-09.md",
     "未命名.md",
+    "2026-06-06.md",
     "LinkedHashSet的底层原理.png",
     "Java中的集合(二).md",
     "Java中的集合(一).md",
