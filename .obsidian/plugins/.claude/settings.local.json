@@ -13,7 +13,8 @@
       "Bash(python3 *)",
       "Bash(git -C \"D:/icloud/iCloudDrive/iCloud~md~obsidian/MyNote_Vault\" status --short obsidian-latex-suite/)",
       "Bash(git -C \"D:/icloud/iCloudDrive/iCloud~md~obsidian/MyNote_Vault\" check-ignore \"obsidian-latex-suite/data.json\")",
-      "Bash(echo \"exit: $?\")"
+      "Bash(echo \"exit: $?\")",
+      "Bash(grep -oB5 'getSnippets' main.js)"
     ]
   }
 }
