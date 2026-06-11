@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebSearch",
+      "WebFetch(domain:deepwiki.com)",
+      "Bash(grep -oP '.{0,100}saveData.{0,100}' \"obsidian-latex-suite/main.js\")",
+      "Bash(grep -oP '.{0,100}\\\\.json.{0,100}' \"obsidian-latex-suite/main.js\")"
+    ]
+  }
+}
