@@ -11,10 +11,14 @@
             "id": "cee8c6e1e6eec38e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "离散数学笔记/1.2-1.4 集合的运算及其性质,有穷集的计数.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "1.2-1.4 集合的运算及其性质,有穷集的计数"
             }
           }
         ]
