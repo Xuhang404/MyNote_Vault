@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "离散数学笔记/1.2-1.4 集合的运算及其性质,有穷集的计数.md",
+                "file": "离散数学PDF/study_progress.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.2-1.4 集合的运算及其性质,有穷集的计数"
+              "title": "study_progress"
             }
           }
         ]
@@ -169,6 +169,8 @@
   },
   "active": "cee8c6e1e6eec38e",
   "lastOpenFiles": [
+    "离散数学PDF/references/wiki/ch1_set.md",
+    "离散数学笔记/1.2-1.4 集合的运算及其性质,有穷集的计数.md",
     "Java中的集合/Java中的Collection集合体系结构.canvas",
     "Java中的集合/Java中的集合(一).md",
     "Java中的集合/HashSet的底层原理.png",
