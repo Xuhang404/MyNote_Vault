@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Xuhang/.claude/skills/universal-exam-cram-coach/scripts/**)",
+      "Read(//c/Users/Xuhang/.claude/skills/universal-exam-cram-coach/templates/**)",
+      "Bash(python \"C:/Users/Xuhang/.claude/skills/universal-exam-cram-coach/scripts/ingest.py\" --help)",
+      "Bash(python -c \"import pymupdf; print\\('PyMuPDF available'\\)\")",
+      "Bash(python -c \"import fitz; print\\('fitz available'\\)\")",
+      "Bash(python -c \"import pdfplumber; print\\('pdfplumber available'\\)\")",
+      "Bash(python -c \"import pdfminer; print\\('pdfminer available'\\)\")",
+      "Bash(python -c \"import pdfminer.high_level; print\\('pdfminer.high_level available'\\)\")",
+      "Bash(python -c ' *)",
+      "Bash(python *)"
+    ]
+  }
+}
