@@ -2,8 +2,7 @@
   "permissions": {
     "allow": [
       "Bash(cp -r \"D:\\\\icloud\\\\iCloudDrive\\\\iCloud~md~obsidian\\\\MyNote_Vault\" \"D:\\\\MyNote_Vault\")",
-      "Read(//d//**)",
-      "Bash(schtasks *)"
+      "Read(//d//**)"
     ]
   }
 }
