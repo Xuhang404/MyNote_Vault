@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Xuhang/.claude/skills/universal-exam-cram-coach/scripts/**)",
+      "Read(//c/Users/Xuhang/.claude/skills/universal-exam-cram-coach/templates/**)",
+      "Bash(python \"C:/Users/Xuhang/.claude/skills/universal-exam-cram-coach/scripts/ingest.py\" --help)",
+      "Bash(python -c \"import pymupdf; print\\('PyMuPDF available'\\)\")",
+      "Bash(python -c \"import fitz; print\\('fitz available'\\)\")",
+      "Bash(python -c \"import pdfplumber; print\\('pdfplumber available'\\)\")",
+      "Bash(python -c \"import pdfminer; print\\('pdfminer available'\\)\")",
+      "Bash(python -c \"import pdfminer.high_level; print\\('pdfminer.high_level available'\\)\")",
+      "Bash(python -c ' *)",
+      "Bash(python *)",
+      "Bash(pdftotext \"D:/icloud/iCloudDrive/iCloud~md~obsidian/MyNote_Vault/离散数学PDF/3-1函数.pdf\" -)",
+      "Bash(pdftotext \"D:/icloud/iCloudDrive/iCloud~md~obsidian/MyNote_Vault/离散数学PDF/3-2函数.pdf\" -)",
+      "Bash(pdftotext \"D:/icloud/iCloudDrive/iCloud~md~obsidian/MyNote_Vault/离散数学PDF/3-3函数.pdf\" -)",
+      "Bash(pdftotext -layout -enc UTF-8 \"D:/icloud/iCloudDrive/iCloud~md~obsidian/MyNote_Vault/离散数学PDF/3-1函数.pdf\" -)",
+      "Bash(pdftotext -layout -enc UTF-8 \"D:/icloud/iCloudDrive/iCloud~md~obsidian/MyNote_Vault/离散数学PDF/3-2函数.pdf\" -)",
+      "Bash(pdftotext -layout -enc UTF-8 \"D:/icloud/iCloudDrive/iCloud~md~obsidian/MyNote_Vault/离散数学PDF/3-3函数.pdf\" -)",
+      "Bash(pdftotext -layout -enc UTF-8 \"D:/icloud/iCloudDrive/iCloud~md~obsidian/MyNote_Vault/离散数学PDF/5-1图论基本概念.pdf\" -)",
+      "Bash(pdftotext -layout -enc UTF-8 \"D:/icloud/iCloudDrive/iCloud~md~obsidian/MyNote_Vault/离散数学PDF/5-2图论基本概念.pdf\" -)",
+      "Bash(pdftotext *)"
+    ]
+  }
+}
