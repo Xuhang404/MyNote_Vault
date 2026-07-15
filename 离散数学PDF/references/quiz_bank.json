@@ -85,6 +85,104 @@
   },
   {
     "id": "q7",
+    "chapter": 3,
+    "type": "choice",
+    "question": "设f:ℤ→ℤ，f(x)=2x，则f是？",
+    "options": [
+      "A. 单射非满射",
+      "B. 满射非单射",
+      "C. 双射",
+      "D. 既非单射也非满射"
+    ],
+    "answer": "A",
+    "explanation": "单射：2x₁=2x₂⇒x₁=x₂，是单射。非满射：奇数值如1无原像（2x=1⇒x=0.5∉ℤ）。所以是单射非满射。"
+  },
+  {
+    "id": "q8",
+    "chapter": 3,
+    "type": "choice",
+    "question": "设f:A→B是双射，g:B→C是双射，则g∘f:A→C是？",
+    "options": [
+      "A. 单射而非满射",
+      "B. 满射而非单射",
+      "C. 双射",
+      "D. 不确定"
+    ],
+    "answer": "C",
+    "explanation": "双射的复合仍是双射。因为f和g都是单射⇒g∘f是单射；f和g都是满射⇒g∘f是满射。所以g∘f是双射。"
+  },
+  {
+    "id": "q9",
+    "chapter": 3,
+    "type": "choice",
+    "question": "函数f:A→B存在反函数的充要条件是？",
+    "options": [
+      "A. f是单射",
+      "B. f是满射",
+      "C. f是双射",
+      "D. f是常函数"
+    ],
+    "answer": "C",
+    "explanation": "只有双射才有反函数。单射不满射：某些y无原像→f⁻¹(y)无定义。满射不单射：某些y对应多个x→f⁻¹(y)不唯一。只有双射才能保证一一对应，存在反函数。"
+  },
+  {
+    "id": "q10",
+    "chapter": 3,
+    "type": "choice",
+    "question": "下列哪对集合是等势的？",
+    "options": [
+      "A. ℕ与ℝ",
+      "B. ℤ与ℕ",
+      "C. ℚ与ℝ",
+      "D. ℕ与P(ℕ)"
+    ],
+    "answer": "B",
+    "explanation": "ℤ≈ℕ（可构造双射：f(n)=2n(n≥0), f(n)=−2n−1(n<0)）。ℝ比ℕ和ℚ都大（康托尔对角线法），P(ℕ)也与ℕ不等势。"
+  },
+  {
+    "id": "q11",
+    "chapter": 3,
+    "type": "choice",
+    "question": "康托尔对角线法证明了什么？",
+    "options": [
+      "A. ℤ≈ℕ",
+      "B. ℕ×ℕ≈ℕ",
+      "C. ℕ≈ℚ",
+      "D. ℕ≉ℝ"
+    ],
+    "answer": "D",
+    "explanation": "康托尔对角线法：假设[0,1]中实数可列，构造小数点后每位与列举数都不同的新数，推出矛盾，从而证明ℕ≉ℝ。"
+  },
+  {
+    "id": "q12",
+    "chapter": 3,
+    "type": "choice",
+    "question": "康托尔定理指出：对任意集合A，都有？",
+    "options": [
+      "A. A≈P(A)",
+      "B. A ≺· P(A)",
+      "C. P(A) ≺· A",
+      "D. A≈ℕ"
+    ],
+    "answer": "B",
+    "explanation": "康托尔定理：A ≺· P(A)，即A的基数严格小于其幂集的基数。证明关键在于构造B={x|x∉f(x)}。"
+  },
+  {
+    "id": "q13",
+    "chapter": 3,
+    "type": "choice",
+    "question": "设f:A→B是函数，关于像和原像，以下说法正确的是？",
+    "options": [
+      "A. 函数值f(x)和像f(A₁)都是B中的元素",
+      "B. f⁻¹(f(A₁)) = A₁ 总是成立",
+      "C. f⁻¹(B₁)是B的子集",
+      "D. 像f(A₁)是B的子集"
+    ],
+    "answer": "D",
+    "explanation": "函数值f(x)∈B，而像f(A₁)⊆B（是B的子集）。f⁻¹(B₁)⊆A（是A的子集）。一般f⁻¹(f(A₁))≠A₁，而是A₁⊆f⁻¹(f(A₁))。"
+  },
+  {
+    "id": "q14",
     "chapter": 5,
     "type": "choice",
     "question": "一个无向图有10个顶点，每个顶点度数均为3，则该图有多少条边？",

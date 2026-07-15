@@ -1,8 +1,8 @@
 # 🎯 《离散数学》复习进度与错题档案
 
 ## ⏱️ 当前复习断点
-* **当前进行阶段**：阶段 1：集合论：集合的基本概念与运算
-* **最后更新时间**：2026-06-25
+* **当前进行阶段**：阶段 8：代数结构：代数系统与群论 (第12-13章)
+* **最后更新时间**：2026-07-08
 
 ---
 
@@ -10,7 +10,7 @@
 <!-- 下方 PHASE_CHECKLIST 为 scripts/ingest.py 的插入锚点，请勿删除 -->
 - [ ] **阶段 1**：集合论：集合的基本概念与运算 (关联 `references/wiki/ch1_set.md`)
 - [ ] **阶段 2**：集合论：二元关系 (关联 `references/wiki/ch2_relation.md`)
-- [ ] **阶段 3**：集合论：函数 (关联 `references/wiki/ch3_function.md`)
+- [x] **阶段 3**：集合论：函数 (关联 `references/wiki/ch3_function.md`)
 - [ ] **阶段 4**：图论：基本概念 (关联 `references/wiki/ch5_graph.md`)
 - [ ] **阶段 5**：图论：欧拉图与哈密顿图 (关联 `references/wiki/ch6_euler_hamilton.md`)
 - [ ] **阶段 6**：图论：树 (关联 `references/wiki/ch7_tree.md`)
