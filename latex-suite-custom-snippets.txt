@@ -5,7 +5,7 @@ export default [
 	{trigger: /(?<=\S.*)dm/, replacement: "\n$$\n\t$0\n$$", options: "tAw", priority: 1},
 	{trigger: /([^\\])beg/, replacement: "[[0]]\\begin{$0}\n\t$1\n\\end{$0}", options: "MA"},
 	{trigger: /([^\\])beg/, replacement: "[[0]]\\begin{$0} $1 \\end{$0}", options: "nA"},
-
+	
     // Dashes
 	// {trigger: "--", replacement: "–", options: "tA"},
 	// {trigger: "–-", replacement: "—", options: "tA"},
